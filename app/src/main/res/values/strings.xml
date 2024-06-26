@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spinners</string>
+    <string name="add_items">Add Items</string>
+    <string name="enter_name">Enter Name..</string>
+    <string name="add">Add</string>
+    <string name="txt">Add Names..</string>
+    <string-array name="gender">
+        <item>Choose Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+</resources>
