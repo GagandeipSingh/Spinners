@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener {
             val dialog = Dialog(this)
             dialog.setContentView(R.layout.custombg)
-            dialog.setCancelable(false)
             val window = dialog.window
             window?.setLayout(WindowManager.LayoutParams.WRAP_CONTENT,WindowManager.LayoutParams.WRAP_CONTENT)
             val addBtn = dialog.findViewById<TextView>(R.id.positiveButton)
